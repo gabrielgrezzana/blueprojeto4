@@ -22,5 +22,5 @@ app.use('/users', usersRoutes);
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
-  console.log(`Running at port ${port}`);
+  console.log(`Rodando na porta ${port}`);
 });
