@@ -21,7 +21,7 @@ module.exports = (req, res, next) => {
 
     const user = await authServices.findUserById(decoded._id);
 
-    if (!user || !user._id) {
+    if (err || !user || !user._id) {
       return res.status(401).send({ message: 'Token invalido' });
     }
 
