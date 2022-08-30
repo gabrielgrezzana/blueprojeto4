@@ -11,11 +11,11 @@
   },
   "servers": [
     {
-      "url": "http://blueprojeto4.herokuapp.com",
+      "url": "http://localhost:3001",
       "description": "Test and development API"
     },
     {
-      "url": "http://localhost:3001",
+      "url": "https://gabrielgrezzana.herokuapp.com",
       "description": "Production API"
     }
   ],
